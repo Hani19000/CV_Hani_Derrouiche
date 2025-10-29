@@ -20,25 +20,31 @@ def generatePDF(request):
     # 2️⃣ Configuration wkhtmltopdf (pour Render/Linux)
     config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
 
-    # 3️⃣ Options PDF
+    # 3️⃣ Options PDF COMPATIBLES avec wkhtmltopdf non-patché
     options = {
         'encoding': 'UTF-8',
         'page-size': 'A4',
+
+        # Marges à 0 pour supprimer les bordures blanches
         'margin-top': '0mm',
         'margin-bottom': '0mm',
         'margin-left': '0mm',
         'margin-right': '0mm',
+
+        # Qualité
         'dpi': 300,
+        'image-dpi': 300,
+        'image-quality': 100,
+
+        # Options compatibles
         'enable-local-file-access': None,
-        'print-media-type': None,
-        'no-background': False,
-        'disable-smart-shrinking': None,
+        'quiet': '',
+
+        # Zoom pour un meilleur rendu
         'zoom': 1.0,
-        # Éviter les coupures en plein texte
-        'page-break-inside': 'avoid',
     }
 
-    # 4️⃣ Génération du PDF directement depuis le HTML complet
+    # 4️⃣ Génération du PDF
     pdf = pdfkit.from_string(html, False, configuration=config, options=options)
 
     # 5️⃣ Envoi du PDF au navigateur
