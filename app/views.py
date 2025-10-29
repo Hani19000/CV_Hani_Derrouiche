@@ -64,6 +64,11 @@ def generatePDF(request):
     return response##
 
 
+"""
+ajoutez la vaiable d'environement sur render : WKHTMLTOPDF_PATH=/usr/bin/wkhtmltopdf
+
+"""
+
 
 def home(request):
     return render(request, 'index.html')
