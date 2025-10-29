@@ -9,21 +9,46 @@ WKHTMLTOPDF_PATH = os.getenv('WKHTMLTOPDF_PATH', r"C:\Program Files\wkhtmltopdf\
 config = pdfkit.configuration(wkhtmltopdf=WKHTMLTOPDF_PATH)
 
 
-
+##code pour déployer sur render il faut utiliser from_string et non from_url##
 def generatePDF(request):
-    # Rendre ton template HTML en texte
-    html = render_to_string('index.html', {})  # tu peux passer un contexte ici
+    # Préparer le contexte et charger le template HTML
+    css_path = os.path.join(settings.STATIC_ROOT, 'css/style.css')  # chemin absolu en prod
+    html = render_to_string('index.html', {})
 
-    # Configuration Linux pour Render
+    # Config wkhtmltopdf
     config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
 
-    # Génération PDF à partir de la chaîne HTML
-    pdf = pdfkit.from_string(html, False, configuration=config)
+    # Options wkhtmltopdf (marges, DPI, etc.)
+    options = {
+        'encoding': 'UTF-8',
+        'page-size': 'A4',
+        'margin-top': '10mm',
+        'margin-bottom': '10mm',
+        'margin-left': '10mm',
+        'margin-right': '10mm',
+        'dpi': 300,
+        'enable-local-file-access': None,  # autorise wkhtmltopdf à lire les fichiers CSS
+    }
 
-    # Réponse HTTP
+    # Génération du PDF avec le CSS
+    pdf = pdfkit.from_string(html, False, configuration=config, options=options, css=[css_path])
+
     response = HttpResponse(pdf, content_type='application/pdf')
-    response['Content-Disposition'] = 'attachment; filename="cv.pdf"'
+    response['Content-Disposition'] = 'attachment; filename="cv-hani-derrouiche.pdf"'
     return response
+
+
+##code pour déployér sur autre que render (car render a du mal a support pdfkit##
+#config = pdfkit.configuration(wkhtmltopdf=r"C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe")#
+
+#def generatePDF(request):
+    pdf = pdfkit.from_url(request.build_absolute_uri(reverse('home')), False, configuration=config)
+    response = HttpResponse(pdf, content_type='application/pdf')
+    response['Content-Disposition'] = 'attachment; filename=test.pdf'
+
+    return response##
+
+
 
 def home(request):
     return render(request, 'index.html')
