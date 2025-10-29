@@ -4,8 +4,8 @@ from django.utils.translation import gettext as _
 from django.urls import reverse
 import pdfkit
 
-path_wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
-config = pdfkit.configuration(wkhtmltopdf=r"C:/Program files/wkhtmltopdf/bin/wkhtmltopdf.exe")
+config = pdfkit.configuration(wkhtmltopdf=r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
+
 
 def generatePDF(request):
     pdf = pdfkit.from_url(request.build_absolute_uri(reverse('home')), False, configuration=config)
