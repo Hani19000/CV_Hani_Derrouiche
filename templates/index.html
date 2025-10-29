@@ -6,24 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% trans "CV - Hani Derrouiche" %}</title>
     <style>
+        /* ===== RÈGLES POUR PDF ===== */
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            color-adjust: exact;
         }
 
         body {
-            font-family: 'Arial', 'Helvetica', sans-serif; /* Police recommandée: 'Roboto' de Google Fonts */
+            font-family: 'Arial', 'Helvetica', sans-serif;
             line-height: 1.6;
             color: #333;
             background-color: #e8e0db;
+            margin: 0;
+            padding: 0;
         }
 
         .container {
-            max-width: 1200px; /* Largeur maximale du CV */
-            margin: 10px auto; /* Marge verticale 40px */
+            max-width: 1200px;
+            margin: 0 auto;
             background-color: #e8e0db;
-            padding: 60px 80px; /* Padding interne: 60px vertical, 80px horizontal */
+            padding: 40px 60px;
+            min-height: 100vh;
         }
 
         /* Language Switch */
@@ -61,6 +73,8 @@
             padding-bottom: 20px;
             margin-bottom: 30px;
             position: relative;
+            page-break-after: avoid;
+            break-after: avoid;
         }
 
         .header-top {
@@ -111,6 +125,14 @@
             padding: 10px 15px;
             margin: 30px 0 20px 0;
             font-size: 1.3em;
+            page-break-after: avoid;
+            break-after: avoid;
+        }
+
+        /* Éviter les coupures dans les sections */
+        section {
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
 
         /* Education */
@@ -119,6 +141,8 @@
             justify-content: space-between;
             margin-bottom: 20px;
             gap: 20px;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
 
         .education-item .left {
@@ -140,10 +164,17 @@
         }
 
         /* Skills */
+        .skills-section {
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+
         .skill-item {
             display: flex;
             margin-bottom: 15px;
             gap: 20px;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
 
         .skill-item .label {
@@ -162,6 +193,8 @@
             justify-content: space-between;
             margin-top: 20px;
             margin-bottom: 10px;
+            page-break-after: avoid;
+            break-after: avoid;
         }
 
         .job-title .company {
@@ -170,6 +203,11 @@
 
         .job-title .date {
             color: #666;
+        }
+
+        .job-details {
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
 
         .job-details ul {
@@ -184,12 +222,16 @@
         /* Projects */
         .project-item {
             margin-bottom: 25px;
+            page-break-inside: avoid;
+            break-inside: avoid;
         }
 
         .project-title {
             display: flex;
             justify-content: space-between;
             margin-bottom: 10px;
+            page-break-after: avoid;
+            break-after: avoid;
         }
 
         .project-title h3 {
@@ -246,13 +288,27 @@
             height: 20px;
         }
 
-@media print {
-        .pdf-download-btn,
-        .language-switch {
-            display: none !important;
+        /* Saut de page supprimé - pas nécessaire pour ce CV */
+
+        /* MEDIA QUERIES PRINT */
+        @media print {
+            .pdf-download-btn,
+            .language-switch {
+                display: none !important;
+            }
+
+            body {
+                background-color: #e8e0db;
+            }
+
+            .container {
+                padding: 40px 60px;
+                margin: 0;
+            }
         }
-}
-@media (max-width: 768px) {
+
+        /* MEDIA QUERIES MOBILE */
+        @media (max-width: 768px) {
             body {
                 background-color: #fff;
             }
@@ -365,35 +421,7 @@
                 right: 20px;
                 padding: 12px 20px;
                 font-size: 14px;
-    }
-@page {
-          size: A4;
-          margin: 1cm;
-        }
-
-        body {
-          font-family: "Helvetica", sans-serif;
-          color: #333;
-          line-height: 1.6;
-        }
-
-        h1, h2, h3 {
-          color: #0056b3;
-          border-bottom: 1px solid #ddd;
-          padding-bottom: 4px;
-        }
-
-        a {
-          color: #0056b3;
-          text-decoration: none;
-        }
-
-@media print {
-  .no-print {
-    display: none;
-  }
-}
-
+            }
         }
     </style>
 </head>
@@ -531,6 +559,9 @@
             </div>
         </section>
 
+        <!-- Si vous voulez forcer un saut de page ici, décommentez la ligne suivante -->
+        <!-- <div class="page-break"></div> -->
+
         <!-- Work Experience Section -->
         <section class="experience-section">
             <h2 class="section-title">{% trans "EXPERIENCE" %}</h2>
@@ -639,15 +670,16 @@
             </div>
         </section>
     </div>
-<a href="{% url 'pdf' %}" class="pdf-download-btn" target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-    </svg>
-    {% if LANGUAGE_CODE == 'fr' %}
-        Télécharger PDF
-    {% else %}
-        Download PDF
-    {% endif %}
-</a>
+
+    <a href="{% url 'pdf' %}" class="pdf-download-btn" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+        {% if LANGUAGE_CODE == 'fr' %}
+            Télécharger PDF
+        {% else %}
+            Download PDF
+        {% endif %}
+    </a>
 </body>
 </html>

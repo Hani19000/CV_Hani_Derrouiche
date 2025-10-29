@@ -24,13 +24,18 @@ def generatePDF(request):
     options = {
         'encoding': 'UTF-8',
         'page-size': 'A4',
-        'margin-top': '10mm',
-        'margin-bottom': '10mm',
-        'margin-left': '10mm',
-        'margin-right': '10mm',
+        'margin-top': '0mm',
+        'margin-bottom': '0mm',
+        'margin-left': '0mm',
+        'margin-right': '0mm',
         'dpi': 300,
         'enable-local-file-access': None,
         'print-media-type': None,
+        'no-background': False,
+        'disable-smart-shrinking': None,
+        'zoom': 1.0,
+        # Éviter les coupures en plein texte
+        'page-break-inside': 'avoid',
     }
 
     # 4️⃣ Génération du PDF directement depuis le HTML complet
