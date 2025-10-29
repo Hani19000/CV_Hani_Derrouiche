@@ -14,14 +14,13 @@ config = pdfkit.configuration(wkhtmltopdf=WKHTMLTOPDF_PATH)
 
 ##code pour déployer sur render il faut utiliser from_string et non from_url##
 def generatePDF(request):
-    # Préparer le contexte et charger le template HTML
-    css_path = os.path.join(settings.STATIC_ROOT, 'css/style.css')  # chemin absolu en prod
+    # 1️⃣ On génère le HTML à partir du template
     html = render_to_string('index.html', {})
 
-    # Config wkhtmltopdf
+    # 2️⃣ Configuration wkhtmltopdf (pour Render/Linux)
     config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
 
-    # Options wkhtmltopdf (marges, DPI, etc.)
+    # 3️⃣ Options PDF
     options = {
         'encoding': 'UTF-8',
         'page-size': 'A4',
@@ -30,12 +29,14 @@ def generatePDF(request):
         'margin-left': '10mm',
         'margin-right': '10mm',
         'dpi': 300,
-        'enable-local-file-access': None,  # autorise wkhtmltopdf à lire les fichiers CSS
+        'enable-local-file-access': None,
+        'print-media-type': None,
     }
 
-    # Génération du PDF avec le CSS
-    pdf = pdfkit.from_string(html, False, configuration=config, options=options, css=[css_path])
+    # 4️⃣ Génération du PDF directement depuis le HTML complet
+    pdf = pdfkit.from_string(html, False, configuration=config, options=options)
 
+    # 5️⃣ Envoi du PDF au navigateur
     response = HttpResponse(pdf, content_type='application/pdf')
     response['Content-Disposition'] = 'attachment; filename="cv-hani-derrouiche.pdf"'
     return response
