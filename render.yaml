@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: cv-hani-derrouiche
+    env: python
+    region: France
+    plan: free
+    branch: main
+    buildCommand: ./build.sh
+    startCommand: gunicorn CV.wsgi:application
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.0
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: True
+      - key: ALLOWED_HOSTS
+        sync: false
