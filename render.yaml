@@ -6,7 +6,7 @@ services:
     plan: free
     branch: main
     buildCommand: |
-      apt-get update && apt-get install -y wkhtmltopdf
+      apt-get update && apt-get install -y wkhtmltopdf xfonts-75dpi xfonts-base libfontconfig
       pip install -r requirements.txt
     startCommand: gunicorn CV.wsgi:application
     envVars:
