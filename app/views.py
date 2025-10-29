@@ -12,7 +12,7 @@ def generatePDF(request):
     response = HttpResponse(pdf, content_type='application/pdf')
     response['Content-Disposition'] = 'attachment; filename=test.pdf'
 
-    return render(request, 'index.html')
+    return response
 
 def home(request):
     return render(request, 'index.html')
