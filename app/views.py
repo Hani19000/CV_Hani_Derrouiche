@@ -4,6 +4,9 @@ from django.template.loader import render_to_string
 from django.utils.translation import gettext as _
 from django.urls import reverse
 import pdfkit, os
+from django.templatetags.static import static
+from django.conf import settings
+
 
 WKHTMLTOPDF_PATH = os.getenv('WKHTMLTOPDF_PATH', r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
 config = pdfkit.configuration(wkhtmltopdf=WKHTMLTOPDF_PATH)
