@@ -1,19 +1,20 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.utils.translation import gettext as _
-from django.urls import reverse
-import pdfkit, os
-
-WKHTMLTOPDF_PATH = os.getenv('WKHTMLTOPDF_PATH', r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
-config = pdfkit.configuration(wkhtmltopdf=WKHTMLTOPDF_PATH)
+from reportlab.pdfgen import canvas
 
 
 def generatePDF(request):
-    pdf = pdfkit.from_url(request.build_absolute_uri(reverse('home')), False, configuration=config)
-    response = HttpResponse(pdf, content_type='application/pdf')
-    response['Content-Disposition'] = 'attachment; filename=test.pdf'
+    response = HttpResponse(content_type='application/pdf')
+    response['Content-Disposition'] = 'attachment; filename="test.pdf"'
+
+    p = canvas.Canvas(response)
+    p.drawString(100, 800, "Bonjour, ceci est un PDF généré avec ReportLab !")
+    p.showPage()
+    p.save()
 
     return response
+
 
 def home(request):
     return render(request, 'index.html')

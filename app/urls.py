@@ -3,5 +3,5 @@ from app import views
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('pdf', views.generatePDF, name='PDF'),
+    path('pdf/', views.generatePDF, name='pdf'),  # ← petit ajustement ici
 ]
