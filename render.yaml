@@ -2,19 +2,17 @@ services:
   - type: web
     name: cv-hani-derrouiche
     env: python
-    region: frankfurt  # "France" n’est pas une région Render valide
+    region: France
     plan: free
     branch: main
-    buildCommand: |
-      apt-get update && apt-get install -y wkhtmltopdf
-      pip install -r requirements.txt
+    buildCommand: ./build.sh
     startCommand: gunicorn CV.wsgi:application
     envVars:
       - key: PYTHON_VERSION
-        value: 3.13.0  # dernière stable, pas 3.14 encore
+        value: 3.14.0
       - key: SECRET_KEY
         generateValue: true
       - key: DEBUG
-        value: "True"
+        value: True
       - key: ALLOWED_HOSTS
         sync: false
