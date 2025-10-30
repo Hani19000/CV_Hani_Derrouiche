@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-29 23:55+0100\n"
+"POT-Creation-Date: 2025-10-30 17:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,18 +143,16 @@ msgid "Compétences"
 msgstr "Skills"
 
 #: .\templates\index.html:531
-#, fuzzy
-#| msgid "Languages"
-msgid "Languages"
-msgstr "Languages"
+msgid "Front-end"
+msgstr ""
 
 #: .\templates\index.html:535
-msgid "Frameworks"
-msgstr "Frameworks"
+msgid "BACK-end"
+msgstr ""
 
 #: .\templates\index.html:539
-msgid "Tools"
-msgstr "Tools"
+msgid "BDD"
+msgstr ""
 
 #: .\templates\index.html:543
 msgid "Platforms"
@@ -175,7 +173,9 @@ msgid "travail en équipe"
 msgstr "Teamwork"
 
 #: .\templates\index.html:552
-msgid "résolution de probléme"
+#, fuzzy
+#| msgid "résolution de probléme"
+msgid "résolution de problème"
 msgstr "Problem Solving"
 
 #: .\templates\index.html:553
@@ -255,8 +255,8 @@ msgstr ""
 "allows users to listen to and explore audio content (currently Quran "
 "recitations). I implemented the entire backend with Python/Django and SQLite "
 "database, managed audio file integration, and created a clean interface "
-"using HTML, CSS, and JavaScript. This project provided deep understanding "
-"of full-stack application architecture: database management, API development, "
+"using HTML, CSS, and JavaScript. This project provided deep understanding of "
+"full-stack application architecture: database management, API development, "
 "user interface, and deployment, while marking my introduction to Python "
 "development."
 
@@ -348,6 +348,17 @@ msgid ""
 msgstr ""
 "I also created several small JavaScript projects (such as a calculator and "
 "stopwatch) to practice logic, event handling, and DOM manipulation."
+
+#, fuzzy
+#~| msgid "Languages"
+#~ msgid "Languages"
+#~ msgstr "Languages"
+
+#~ msgid "Frameworks"
+#~ msgstr "Frameworks"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
 
 #, fuzzy
 #~| msgid "octobre 2024 - octobre 2025"

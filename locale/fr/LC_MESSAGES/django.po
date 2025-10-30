@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 00:44+0100\n"
+"POT-Creation-Date: 2025-10-30 17:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,18 +141,16 @@ msgid "Compétences"
 msgstr "Compétences"
 
 #: .\templates\index.html:531
-#, fuzzy
-#| msgid "Languages"
-msgid "Languages"
-msgstr "Languages"
+msgid "Front-end"
+msgstr ""
 
 #: .\templates\index.html:535
-msgid "Frameworks"
-msgstr "Frameworks"
+msgid "BACK-end"
+msgstr ""
 
 #: .\templates\index.html:539
-msgid "Tools"
-msgstr "Tools"
+msgid "BDD"
+msgstr ""
 
 #: .\templates\index.html:543
 msgid "Platforms"
@@ -173,7 +171,9 @@ msgid "travail en équipe"
 msgstr "travail en équipe"
 
 #: .\templates\index.html:552
-msgid "résolution de probléme"
+#, fuzzy
+#| msgid "résolution de probléme"
+msgid "résolution de problème"
 msgstr "résolution de probléme"
 
 #: .\templates\index.html:553
@@ -349,6 +349,17 @@ msgstr ""
 "J'ai aussi créé plusieurs petits projets en JavaScript (comme une "
 "calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des "
 "événements et la manipulation du DOM."
+
+#, fuzzy
+#~| msgid "Languages"
+#~ msgid "Languages"
+#~ msgstr "Languages"
+
+#~ msgid "Frameworks"
+#~ msgstr "Frameworks"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
 
 #, fuzzy
 #~| msgid "octobre 2024 - octobre 2025"
