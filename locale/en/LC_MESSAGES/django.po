@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 20:35+0100\n"
+"POT-Creation-Date: 2025-11-01 21:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,9 +134,9 @@ msgstr ""
 
 #: .\templates\index.html:537
 #, fuzzy
-#| msgid "octobre 2025 - juin 2026"
-msgid "octobre 2025 - juin 2026"
-msgstr "October 2025 - June 2026"
+#| msgid "septembre 2021 - mars 2022"
+msgid "septembre 2023 - juin 2025"
+msgstr "September 2021 - March 2022"
 
 #: .\templates\index.html:544
 msgid "Compétences"
@@ -354,6 +354,11 @@ msgstr "Activity Leader/Assistant Director | Jean-Cocteau Youth Center"
 #| msgid "octobre 2025 - juin 2026"
 msgid "octobre 2024 - Juillet 2025"
 msgstr "October 2025 - June 2026"
+
+#, fuzzy
+#~| msgid "octobre 2025 - juin 2026"
+#~ msgid "octobre 2025 - juin 2026"
+#~ msgstr "October 2025 - June 2026"
 
 #~ msgid "EXPERIENCE"
 #~ msgstr "EXPERIENCE"
