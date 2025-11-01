@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-30 17:43+0100\n"
+"POT-Creation-Date: 2025-11-01 19:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,41 +30,41 @@ msgstr ""
 msgid "CV - Hani Derrouiche"
 msgstr "CV - Hani Derrouiche"
 
-#: .\templates\index.html:447
+#: .\templates\index.html:462
 msgid "développeur Web Full-Stack"
 msgstr "développeur Web Full-Stack"
 
-#: .\templates\index.html:456
+#: .\templates\index.html:474
 msgid "Mobile"
 msgstr "Mobile"
 
-#: .\templates\index.html:457
+#: .\templates\index.html:475
 msgid "date de naissance"
 msgstr "date de naissance"
 
-#: .\templates\index.html:458
+#: .\templates\index.html:476
 #, fuzzy
 #| msgid "adresse"
 msgid "adresse"
 msgstr "adresse"
 
-#: .\templates\index.html:459
+#: .\templates\index.html:477
 msgid "permis"
 msgstr "permis"
 
-#: .\templates\index.html:459
+#: .\templates\index.html:477
 msgid "permis B"
 msgstr "permis B"
 
-#: .\templates\index.html:466
+#: .\templates\index.html:484
 msgid "EDUCATION"
 msgstr "EDUCATION"
 
-#: .\templates\index.html:470
+#: .\templates\index.html:488
 msgid "Lycée jacque brel"
 msgstr "Lycée jacque brel"
 
-#: .\templates\index.html:471
+#: .\templates\index.html:489
 msgid ""
 "Diplome du baccalauréat Général | Spécialité : Mathématique, SVT, Physique-"
 "Chimie"
@@ -72,57 +72,57 @@ msgstr ""
 "Diplome du baccalauréat Général | Spécialité : Mathématique, SVT, Physique-"
 "Chimie"
 
-#: .\templates\index.html:475
+#: .\templates\index.html:493
 #, fuzzy
 #| msgid "septembre 2018 - Juillet 2021"
 msgid "septembre 2018 - Juillet 2021"
 msgstr "septembre 2018 - Juillet 2021"
 
-#: .\templates\index.html:481
+#: .\templates\index.html:499
 msgid "Université lyon 2"
 msgstr "Université lyon 2"
 
-#: .\templates\index.html:482
+#: .\templates\index.html:500
 msgid "Licence mathématique et informatique appliqué aux science humaine"
 msgstr "Licence mathématique et informatique appliqué aux science humaine"
 
-#: .\templates\index.html:486
+#: .\templates\index.html:504
 #, fuzzy
 #| msgid "septembre 2021 - mars 2022"
 msgid "septembre 2021 - mars 2022"
 msgstr "septembre 2021 - mars 2022"
 
-#: .\templates\index.html:492
+#: .\templates\index.html:510
 msgid "STUDI école en ligne | bac +2"
 msgstr "STUDI école en ligne | bac +2"
 
-#: .\templates\index.html:493
+#: .\templates\index.html:511
 msgid "Graduate Développeur web full stack"
 msgstr "Graduate Développeur web full stack"
 
-#: .\templates\index.html:497 .\templates\index.html:615
+#: .\templates\index.html:515 .\templates\index.html:633
 msgid "octobre 2024 - octobre 2025"
 msgstr "octobre 2024 - octobre 2025"
 
-#: .\templates\index.html:503
+#: .\templates\index.html:521
 msgid "STUDI école en ligne | bac +3"
 msgstr "STUDI école en ligne | bac +3"
 
-#: .\templates\index.html:504
+#: .\templates\index.html:522
 msgid "Bachelor Développeur d'application Python"
 msgstr "Bachelor Développeur d'application Python"
 
-#: .\templates\index.html:508
+#: .\templates\index.html:526
 #, fuzzy
 #| msgid "octobre 2025"
 msgid "octobre 2025 - en cours"
 msgstr "octobre 2025"
 
-#: .\templates\index.html:514
+#: .\templates\index.html:532
 msgid "Université lyon 1 | bac +2"
 msgstr "Université lyon 1 | bac +2"
 
-#: .\templates\index.html:515
+#: .\templates\index.html:533
 msgid ""
 "Diplome universitaire Animaton et Gestion des activités sportives et "
 "culutrel (DEUST AGAPSC)"
@@ -130,73 +130,73 @@ msgstr ""
 "Diplome universitaire Animaton et Gestion des activités sportives et "
 "culutrel (DEUST AGAPSC)"
 
-#: .\templates\index.html:519
+#: .\templates\index.html:537
 #, fuzzy
 #| msgid "octobre 2025 - juin 2026"
 msgid "octobre 2025 - juin 2026"
 msgstr "octobre 2025 - juin 2026"
 
-#: .\templates\index.html:526
+#: .\templates\index.html:544
 msgid "Compétences"
 msgstr "Compétences"
 
-#: .\templates\index.html:531
+#: .\templates\index.html:549
 msgid "Front-end"
 msgstr ""
 
-#: .\templates\index.html:535
+#: .\templates\index.html:553
 msgid "BACK-end"
 msgstr ""
 
-#: .\templates\index.html:539
+#: .\templates\index.html:557
 msgid "BDD"
 msgstr ""
 
-#: .\templates\index.html:543
+#: .\templates\index.html:561
 msgid "Platforms"
 msgstr "Platforms"
 
-#: .\templates\index.html:547
+#: .\templates\index.html:565
 msgid "Soft Skills"
 msgstr "Soft Skills"
 
-#: .\templates\index.html:550
+#: .\templates\index.html:568
 #, fuzzy
 #| msgid "Excellente communication"
 msgid "Excellente communication"
 msgstr "Excellente communication"
 
-#: .\templates\index.html:551
+#: .\templates\index.html:569
 msgid "travail en équipe"
 msgstr "travail en équipe"
 
-#: .\templates\index.html:552
+#: .\templates\index.html:570
 #, fuzzy
 #| msgid "résolution de probléme"
 msgid "résolution de problème"
 msgstr "résolution de probléme"
 
-#: .\templates\index.html:553
+#: .\templates\index.html:571
 msgid "autonome et organiser"
 msgstr "autonome et organiser"
 
-#: .\templates\index.html:554
+#: .\templates\index.html:572
 msgid "polyvalent et ponctuel"
 msgstr "polyvalent et ponctuel"
 
-#: .\templates\index.html:567
+#: .\templates\index.html:585
 msgid "EXPERIENCE"
 msgstr "EXPERIENCE"
 
-#: .\templates\index.html:570
+#: .\templates\index.html:588
 msgid "Animateur/Directeur adjoint | centre de loisirs Venissieux"
 msgstr "Animateur/Directeur adjoint | centre de loisirs Venissieux"
 
-#: .\templates\index.html:571 .\templates\index.html:585
+#: .\templates\index.html:589 .\templates\index.html:603
 msgid "juillet 2022 - Juillet2024"
 msgstr "juillet 2022 - Juillet2024"
 
-#: .\templates\index.html:575 .\templates\index.html:589
+#: .\templates\index.html:593 .\templates\index.html:607
 msgid ""
 "Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
 "moyens nécessaires à la réalisation des projets concernés."
@@ -204,7 +204,7 @@ msgstr ""
 "Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
 "moyens nécessaires à la réalisation des projets concernés."
 
-#: .\templates\index.html:576 .\templates\index.html:590
+#: .\templates\index.html:594 .\templates\index.html:608
 msgid ""
 "Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
 "respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
@@ -214,32 +214,32 @@ msgstr ""
 "respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
 "et objectifs pédagogiques du secteur."
 
-#: .\templates\index.html:577 .\templates\index.html:591
+#: .\templates\index.html:595 .\templates\index.html:609
 msgid "diriger/animer une équipe d'animation."
 msgstr "diriger/animer une équipe d'animation."
 
-#: .\templates\index.html:578 .\templates\index.html:592
+#: .\templates\index.html:596 .\templates\index.html:610
 msgid "mener des projets educative pour répondre aux besoin de la structure."
 msgstr "mener des projets educative pour répondre aux besoin de la structure."
 
-#: .\templates\index.html:579 .\templates\index.html:593
+#: .\templates\index.html:597 .\templates\index.html:611
 msgid "mettre en place des réunions de coordination de l'équipe d'animation."
 msgstr "mettre en place des réunions de coordination de l'équipe d'animation."
 
-#: .\templates\index.html:584
+#: .\templates\index.html:602
 msgid "Animateur/Directeur adjoint | MJC Jean-Cocteau"
 msgstr "Animateur/Directeur adjoint | MJC Jean-Cocteau"
 
-#: .\templates\index.html:600
+#: .\templates\index.html:618
 msgid "PROJECTS"
 msgstr "PROJECTS"
 
-#: .\templates\index.html:605 .\templates\index.html:655
-#: .\templates\index.html:665
+#: .\templates\index.html:623 .\templates\index.html:673
+#: .\templates\index.html:683
 msgid "octobre 2025"
 msgstr "octobre 2025"
 
-#: .\templates\index.html:608
+#: .\templates\index.html:626
 msgid ""
 "Projet complet que j'ai développé de A à Z avec Django. C'est une "
 "application web permettant d'écouter des audio. J'ai mis en place toute la "
@@ -257,7 +257,7 @@ msgstr ""
 "full-stack : base de données, API, interface et déploiement, et de faire mes "
 "débuts sur Python."
 
-#: .\templates\index.html:618
+#: .\templates\index.html:636
 msgid ""
 "Ecoride est une plateforme de covoiturage web que j'ai conçue avec Node.js, "
 "Express et EJS dans le cadre de ma formation. J'ai créé les routes "
@@ -273,16 +273,16 @@ msgstr ""
 "des données. Ce projet m'a appris à structurer un backend clair, à utiliser "
 "un moteur de templates et à déployer une app sur un serveur (Fly.io)."
 
-#: .\templates\index.html:624
+#: .\templates\index.html:642
 msgid "Agence de voyage"
 msgstr "Agence de voyage"
 
-#: .\templates\index.html:625 .\templates\index.html:635
-#: .\templates\index.html:645
+#: .\templates\index.html:643 .\templates\index.html:653
+#: .\templates\index.html:663
 msgid "mars 2025"
 msgstr "mars 2025"
 
-#: .\templates\index.html:628
+#: .\templates\index.html:646
 msgid ""
 "Un projet front-end que j'ai réalisé pour m'exercer à la création de sites "
 "vitrines professionnels. J'ai conçu un site complet d'agence de voyage avec "
@@ -294,11 +294,11 @@ msgstr ""
 "plusieurs pages (accueil, offres, contact), en HTML et CSS, avec un design "
 "responsive."
 
-#: .\templates\index.html:634
+#: .\templates\index.html:652
 msgid "authentification"
 msgstr "authentification"
 
-#: .\templates\index.html:638
+#: .\templates\index.html:656
 msgid ""
 "Projet orienté sécurité et backend, où j'ai développé un système "
 "d'authentification complet avec Node.js, Express et MongoDB. Les "
@@ -314,7 +314,7 @@ msgstr ""
 "mots de passe. Ce projet m'a permis de comprendre les bonnes pratiques de "
 "sécurité et la gestion des sessions dans une application web."
 
-#: .\templates\index.html:648
+#: .\templates\index.html:666
 msgid ""
 "Une application de gestion de tâches, réalisée en HTML, CSS et JavaScript. "
 "L'utilisateur peut ajouter, modifier et supprimer ses tâches, avec une "
@@ -324,7 +324,7 @@ msgstr ""
 "L'utilisateur peut ajouter, modifier et supprimer ses tâches, avec une "
 "interface claire et réactive."
 
-#: .\templates\index.html:658
+#: .\templates\index.html:676
 msgid ""
 "Application web simple mais ludique que j'ai faite pour explorer les API du "
 "navigateur. Elle permet de convertir un texte écrit en audio, directement "
@@ -336,11 +336,11 @@ msgstr ""
 "depuis le navigateur, grâce à l'API SpeechSynthesis. J'ai géré le design en "
 "CSS et l'interactivité en JavaScript."
 
-#: .\templates\index.html:664
+#: .\templates\index.html:682
 msgid "Chronometre"
 msgstr "Chronometre"
 
-#: .\templates\index.html:668
+#: .\templates\index.html:686
 msgid ""
 "J'ai aussi créé plusieurs petits projets en JavaScript (comme une "
 "calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des "
