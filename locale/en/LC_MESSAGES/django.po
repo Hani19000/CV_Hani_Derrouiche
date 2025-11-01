@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 19:55+0100\n"
+"POT-Creation-Date: 2025-11-01 20:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr "STUDI Online School | Associate Degree Level"
 msgid "Graduate Développeur web full stack"
 msgstr "Full-Stack Web Developer Graduate"
 
-#: .\templates\index.html:515 .\templates\index.html:633
+#: .\templates\index.html:515 .\templates\index.html:597
 msgid "octobre 2024 - octobre 2025"
 msgstr "October 2024 - October 2025"
 
@@ -173,8 +173,6 @@ msgid "travail en équipe"
 msgstr "Teamwork"
 
 #: .\templates\index.html:570
-#, fuzzy
-#| msgid "résolution de probléme"
 msgid "résolution de problème"
 msgstr "Problem Solving"
 
@@ -186,62 +184,16 @@ msgstr "Self-Motivated and Organized"
 msgid "polyvalent et ponctuel"
 msgstr "Versatile and Punctual"
 
-#: .\templates\index.html:585
-msgid "EXPERIENCE"
-msgstr "EXPERIENCE"
-
-#: .\templates\index.html:588
-msgid "Animateur/Directeur adjoint | centre de loisirs Venissieux"
-msgstr "Activity Leader/Assistant Director | Venissieux Recreation Center"
-
-#: .\templates\index.html:589 .\templates\index.html:603
-msgid "juillet 2022 - Juillet2024"
-msgstr "July 2022 - July 2024"
-
-#: .\templates\index.html:593 .\templates\index.html:607
-msgid ""
-"Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
-"moyens nécessaires à la réalisation des projets concernés."
-msgstr ""
-"Prepared, implemented, collaborated on, and led activities by providing the "
-"necessary resources for project completion."
-
-#: .\templates\index.html:594 .\templates\index.html:608
-msgid ""
-"Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
-"respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
-"et objectifs pédagogiques du secteur."
-msgstr ""
-"Welcomed participants, facilitated communication, managed conflicts, and "
-"ensured adherence to rules. Engaged in activities while meeting educational "
-"objectives."
-
-#: .\templates\index.html:595 .\templates\index.html:609
-msgid "diriger/animer une équipe d'animation."
-msgstr "Led and supervised an activity team."
-
-#: .\templates\index.html:596 .\templates\index.html:610
-msgid "mener des projets educative pour répondre aux besoin de la structure."
-msgstr "Developed educational projects to meet organizational needs."
-
-#: .\templates\index.html:597 .\templates\index.html:611
-msgid "mettre en place des réunions de coordination de l'équipe d'animation."
-msgstr "Organized coordination meetings for the activity team."
-
-#: .\templates\index.html:602
-msgid "Animateur/Directeur adjoint | MJC Jean-Cocteau"
-msgstr "Activity Leader/Assistant Director | Jean-Cocteau Youth Center"
-
-#: .\templates\index.html:618
+#: .\templates\index.html:582
 msgid "PROJECTS"
 msgstr "PROJECTS"
 
-#: .\templates\index.html:623 .\templates\index.html:673
-#: .\templates\index.html:683
+#: .\templates\index.html:587 .\templates\index.html:637
+#: .\templates\index.html:647
 msgid "octobre 2025"
 msgstr "October 2025"
 
-#: .\templates\index.html:626
+#: .\templates\index.html:590
 msgid ""
 "Projet complet que j'ai développé de A à Z avec Django. C'est une "
 "application web permettant d'écouter des audio. J'ai mis en place toute la "
@@ -260,7 +212,7 @@ msgstr ""
 "user interface, and deployment, while marking my introduction to Python "
 "development."
 
-#: .\templates\index.html:636
+#: .\templates\index.html:600
 msgid ""
 "Ecoride est une plateforme de covoiturage web que j'ai conçue avec Node.js, "
 "Express et EJS dans le cadre de ma formation. J'ai créé les routes "
@@ -276,16 +228,16 @@ msgstr ""
 "structure a clean backend, use a templating engine, and deploy an "
 "application on a server (Fly.io)."
 
-#: .\templates\index.html:642
+#: .\templates\index.html:606
 msgid "Agence de voyage"
 msgstr "Travel Agency"
 
-#: .\templates\index.html:643 .\templates\index.html:653
-#: .\templates\index.html:663
+#: .\templates\index.html:607 .\templates\index.html:617
+#: .\templates\index.html:627
 msgid "mars 2025"
 msgstr "March 2025"
 
-#: .\templates\index.html:646
+#: .\templates\index.html:610
 msgid ""
 "Un projet front-end que j'ai réalisé pour m'exercer à la création de sites "
 "vitrines professionnels. J'ai conçu un site complet d'agence de voyage avec "
@@ -296,11 +248,11 @@ msgstr ""
 "websites. I designed a complete travel agency website with multiple pages "
 "(home, offers, contact) using HTML and CSS, featuring a responsive design."
 
-#: .\templates\index.html:652
+#: .\templates\index.html:616
 msgid "authentification"
 msgstr "Authentication"
 
-#: .\templates\index.html:656
+#: .\templates\index.html:620
 msgid ""
 "Projet orienté sécurité et backend, où j'ai développé un système "
 "d'authentification complet avec Node.js, Express et MongoDB. Les "
@@ -315,7 +267,7 @@ msgstr ""
 "implemented bcrypt for password hashing. This project helped me understand "
 "security best practices and session management in web applications."
 
-#: .\templates\index.html:666
+#: .\templates\index.html:630
 msgid ""
 "Une application de gestion de tâches, réalisée en HTML, CSS et JavaScript. "
 "L'utilisateur peut ajouter, modifier et supprimer ses tâches, avec une "
@@ -324,7 +276,7 @@ msgstr ""
 "A task management application built with HTML, CSS, and JavaScript. Users "
 "can add, edit, and delete tasks through a clean and responsive interface."
 
-#: .\templates\index.html:676
+#: .\templates\index.html:640
 msgid ""
 "Application web simple mais ludique que j'ai faite pour explorer les API du "
 "navigateur. Elle permet de convertir un texte écrit en audio, directement "
@@ -336,11 +288,11 @@ msgstr ""
 "SpeechSynthesis API. I handled the design with CSS and interactivity with "
 "JavaScript."
 
-#: .\templates\index.html:682
+#: .\templates\index.html:646
 msgid "Chronometre"
 msgstr "Stopwatch"
 
-#: .\templates\index.html:686
+#: .\templates\index.html:650
 msgid ""
 "J'ai aussi créé plusieurs petits projets en JavaScript (comme une "
 "calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des "
@@ -348,6 +300,63 @@ msgid ""
 msgstr ""
 "I also created several small JavaScript projects (such as a calculator and "
 "stopwatch) to practice logic, event handling, and DOM manipulation."
+
+#: .\templates\index.html:658
+msgid "EXPERIENCE PROFESSIONNELLE"
+msgstr "PROFESSIONAL EXPERIENCE"
+
+#: .\templates\index.html:661
+msgid "Animateur/Directeur adjoint | centre de loisirs Venissieux"
+msgstr "Activity Leader/Assistant Director | Venissieux Recreation Center"
+
+#: .\templates\index.html:662
+#, fuzzy
+#| msgid "juillet 2022 - Juillet2024"
+msgid "juillet 2022 - Juillet 2024"
+msgstr "July 2022 - July 2024"
+
+#: .\templates\index.html:666 .\templates\index.html:680
+msgid ""
+"Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
+"moyens nécessaires à la réalisation des projets concernés."
+msgstr ""
+"Prepared, implemented, collaborated on, and led activities by providing the "
+"necessary resources for project completion."
+
+#: .\templates\index.html:667 .\templates\index.html:681
+msgid ""
+"Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
+"respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
+"et objectifs pédagogiques du secteur."
+msgstr ""
+"Welcomed participants, facilitated communication, managed conflicts, and "
+"ensured adherence to rules. Engaged in activities while meeting educational "
+"objectives."
+
+#: .\templates\index.html:668 .\templates\index.html:682
+msgid "diriger/animer une équipe d'animation."
+msgstr "Led and supervised an activity team."
+
+#: .\templates\index.html:669 .\templates\index.html:683
+msgid "mener des projets educative pour répondre aux besoin de la structure."
+msgstr "Developed educational projects to meet organizational needs."
+
+#: .\templates\index.html:670 .\templates\index.html:684
+msgid "mettre en place des réunions de coordination de l'équipe d'animation."
+msgstr "Organized coordination meetings for the activity team."
+
+#: .\templates\index.html:675
+msgid "Animateur/Directeur adjoint | MJC Jean-Cocteau"
+msgstr "Activity Leader/Assistant Director | Jean-Cocteau Youth Center"
+
+#: .\templates\index.html:676
+#, fuzzy
+#| msgid "octobre 2025 - juin 2026"
+msgid "octobre 2024 - Juillet 2025"
+msgstr "October 2025 - June 2026"
+
+#~ msgid "EXPERIENCE"
+#~ msgstr "EXPERIENCE"
 
 #, fuzzy
 #~| msgid "Languages"
