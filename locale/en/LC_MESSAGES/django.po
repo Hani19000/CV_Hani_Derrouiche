@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 20:27+0100\n"
+"POT-Creation-Date: 2025-11-01 20:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -301,21 +301,21 @@ msgstr ""
 "I also created several small JavaScript projects (such as a calculator and "
 "stopwatch) to practice logic, event handling, and DOM manipulation."
 
-#: .\templates\index.html:658
+#: .\templates\index.html:657
 msgid "EXPERIENCE PROFESSIONNELLE"
 msgstr "PROFESSIONAL EXPERIENCE"
 
-#: .\templates\index.html:661
+#: .\templates\index.html:660
 msgid "Animateur/Directeur adjoint | centre de loisirs Venissieux"
 msgstr "Activity Leader/Assistant Director | Venissieux Recreation Center"
 
-#: .\templates\index.html:662
+#: .\templates\index.html:661
 #, fuzzy
 #| msgid "juillet 2022 - Juillet2024"
 msgid "juillet 2022 - Juillet 2024"
 msgstr "July 2022 - July 2024"
 
-#: .\templates\index.html:666 .\templates\index.html:680
+#: .\templates\index.html:665 .\templates\index.html:679
 msgid ""
 "Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
 "moyens nécessaires à la réalisation des projets concernés."
@@ -323,7 +323,7 @@ msgstr ""
 "Prepared, implemented, collaborated on, and led activities by providing the "
 "necessary resources for project completion."
 
-#: .\templates\index.html:667 .\templates\index.html:681
+#: .\templates\index.html:666 .\templates\index.html:680
 msgid ""
 "Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
 "respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
@@ -333,23 +333,23 @@ msgstr ""
 "ensured adherence to rules. Engaged in activities while meeting educational "
 "objectives."
 
-#: .\templates\index.html:668 .\templates\index.html:682
+#: .\templates\index.html:667 .\templates\index.html:681
 msgid "diriger/animer une équipe d'animation."
 msgstr "Led and supervised an activity team."
 
-#: .\templates\index.html:669 .\templates\index.html:683
+#: .\templates\index.html:668 .\templates\index.html:682
 msgid "mener des projets educative pour répondre aux besoin de la structure."
 msgstr "Developed educational projects to meet organizational needs."
 
-#: .\templates\index.html:670 .\templates\index.html:684
+#: .\templates\index.html:669 .\templates\index.html:683
 msgid "mettre en place des réunions de coordination de l'équipe d'animation."
 msgstr "Organized coordination meetings for the activity team."
 
-#: .\templates\index.html:675
+#: .\templates\index.html:674
 msgid "Animateur/Directeur adjoint | MJC Jean-Cocteau"
 msgstr "Activity Leader/Assistant Director | Jean-Cocteau Youth Center"
 
-#: .\templates\index.html:676
+#: .\templates\index.html:675
 #, fuzzy
 #| msgid "octobre 2025 - juin 2026"
 msgid "octobre 2024 - Juillet 2025"

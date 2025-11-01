@@ -441,217 +441,216 @@
     </style>
 </head>
 <body>
-    {% get_available_languages as LANGUAGES %}
-    {% get_language_info_list for LANGUAGES as languages %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
 
-    <!-- Language Switch -->
-    <div class="language-switch">
-        {% for language in languages %}
-            <a href="/{{ language.code }}/" class="lang-btn">
-                {{ language.name_local }}
-            </a>
-        {% endfor %}
+<!-- Language Switch -->
+<div class="language-switch">
+{% for language in languages %}
+    <a href="/{{ language.code }}/" class="lang-btn">
+        {{ language.name_local }}
+    </a>
+{% endfor %}
+</div>
+
+<div class="container">
+<!-- Header -->
+<header>
+    <div class="header-top">
+        <div class="header-left">
+            <h1>Derrouiche Hani</h1>
+            <h2>{% trans "développeur Web Full-Stack" %}</h2>
+            <div class="links">
+                <a href="https://github.com/Hani19000" target="_blank">Github |</a>
+                <a href="https://www.linkedin.com/in/hani-derrouiche-199461372/" target="_blank"> linkedin</a>
+            </div>
+            <div class="links_side">
+                <a href="https://hani-derrouiche-portfolio.onrender.com/" target="_blank">Portfolio |</a>
+                <a href="https://cv-hani-derrouiche.onrender.com/fr/"> CV en ligne</a>
+            </div>
+        </div>
+        <div class="header-right">
+            <div><strong>Email:</strong> hanider27@gmail.com</div>
+            <div><strong>{% trans "Mobile" %}:</strong> (+33) 7 65 74 94 02</div>
+            <div><strong>{% trans "date de naissance" %}:</strong> 27/11/2002</div>
+            <div><strong>{% trans "adresse" %}:</strong> 4 Pass. des Terreaux 69360 Saint-Symphorien-d'Ozon</div>
+            <div><strong>{% trans "permis" %}:</strong> {% trans "permis B" %}</div>
+        </div>
+    </div>
+</header>
+
+<!-- Education Section -->
+<section class="education-section">
+    <h2 class="section-title">{% trans "EDUCATION" %}</h2>
+
+    <div class="education-item">
+        <div class="left">
+            <div class="degree">{% trans "Lycée jacque brel" %}</div>
+            <div class="details">{% trans "Diplome du baccalauréat Général | Spécialité : Mathématique, SVT, Physique-Chimie" %}</div>
+        </div>
+        <div class="right">
+            <div>Lyon, France</div>
+            <div>{% trans "septembre 2018 - Juillet 2021" %}</div>
+        </div>
     </div>
 
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <div class="header-top">
-                <div class="header-left">
-                    <h1>Derrouiche Hani</h1>
-                    <h2>{% trans "développeur Web Full-Stack" %}</h2>
-                    <div class="links">
-                        <a href="https://github.com/Hani19000" target="_blank">Github |</a>
-                        <a href="https://www.linkedin.com/in/hani-derrouiche-199461372/" target="_blank"> linkedin</a>
-                    </div>
-                    <div class="links_side">
-                        <a href="https://hani-derrouiche-portfolio.onrender.com/" target="_blank">Portfolio |</a>
-                        <a href="https://cv-hani-derrouiche.onrender.com/fr/"> CV en ligne</a>
-                    </div>
-                </div>
-                <div class="header-right">
-                    <div><strong>Email:</strong> hanider27@gmail.com</div>
-                    <div><strong>{% trans "Mobile" %}:</strong> (+33) 7 65 74 94 02</div>
-                    <div><strong>{% trans "date de naissance" %}:</strong> 27/11/2002</div>
-                    <div><strong>{% trans "adresse" %}:</strong> 4 Pass. des Terreaux 69360 Saint-Symphorien-d'Ozon</div>
-                    <div><strong>{% trans "permis" %}:</strong> {% trans "permis B" %}</div>
+    <div class="education-item">
+        <div class="left">
+            <div class="degree">{% trans "Université lyon 2" %}</div>
+            <div class="details">{% trans "Licence mathématique et informatique appliqué aux science humaine" %}</div>
+        </div>
+        <div class="right">
+            <div>lyon, france</div>
+            <div>{% trans "septembre 2021 - mars 2022" %}</div>
+        </div>
+    </div>
+
+    <div class="education-item">
+        <div class="left">
+            <div class="degree">{% trans "STUDI école en ligne | bac +2" %}</div>
+            <div class="details">{% trans "Graduate Développeur web full stack" %}</div>
+        </div>
+        <div class="right">
+            <div>lyon, france</div>
+            <div>{% trans "octobre 2024 - octobre 2025" %}</div>
+        </div>
+    </div>
+
+    <div class="education-item">
+        <div class="left">
+            <div class="degree">{% trans "STUDI école en ligne | bac +3" %}</div>
+            <div class="details">{% trans "Bachelor Développeur d'application Python" %}</div>
+        </div>
+        <div class="right">
+            <div>lyon, france</div>
+            <div>{% trans "octobre 2025 - en cours" %}</div>
+        </div>
+    </div>
+
+    <div class="education-item">
+        <div class="left">
+            <div class="degree">{% trans "Université lyon 1 | bac +2" %}</div>
+            <div class="details">{% trans "Diplome universitaire Animaton et Gestion des activités sportives et culutrel (DEUST AGAPSC)" %}</div>
+        </div>
+        <div class="right">
+            <div>lyon, france</div>
+            <div>{% trans "octobre 2025 - juin 2026" %}</div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Summary Section -->
+<section class="skills-section">
+    <h2 class="section-title">{% trans "Compétences" %}</h2>
+
+    <div class="skills-content">
+        <div class="skills-list">
+            <div class="skill-item">
+                <div class="label">{% trans "Front-end" %}</div>
+                <div class="value">HTML, CSS, Javascript, Bootstrap</div>
+            </div>
+            <div class="skill-item">
+                <div class="label">{% trans "BACK-end" %}</div>
+                <div class="value">Python, Django, ExpressJS</div>
+            </div>
+            <div class="skill-item">
+                <div class="label">{% trans "BDD" %}</div>
+                <div class="value">PostgresSQL, mongoDB, SQLlite</div>
+            </div>
+            <div class="skill-item">
+                <div class="label">{% trans "Platforms" %}</div>
+                <div class="value">PyCharm, Visual Studio Code, pgAdmin, DB browser (SQLite)</div>
+            </div>
+            <div class="skill-item">
+                <div class="label">{% trans "Soft Skills" %}</div>
+                <div class="value">
+                    <ul>
+                        <li>{% trans "Excellente communication" %}</li>
+                        <li>{% trans "travail en équipe" %}</li>
+                        <li>{% trans "résolution de problème" %}</li>
+                        <li>{% trans "autonome et organiser" %}</li>
+                        <li>{% trans "polyvalent et ponctuel" %}</li>
+                    </ul>
                 </div>
             </div>
-        </header>
-
-        <!-- Education Section -->
-        <section class="education-section">
-            <h2 class="section-title">{% trans "EDUCATION" %}</h2>
-
-            <div class="education-item">
-                <div class="left">
-                    <div class="degree">{% trans "Lycée jacque brel" %}</div>
-                    <div class="details">{% trans "Diplome du baccalauréat Général | Spécialité : Mathématique, SVT, Physique-Chimie" %}</div>
-                </div>
-                <div class="right">
-                    <div>Lyon, France</div>
-                    <div>{% trans "septembre 2018 - Juillet 2021" %}</div>
-                </div>
-            </div>
-
-            <div class="education-item">
-                <div class="left">
-                    <div class="degree">{% trans "Université lyon 2" %}</div>
-                    <div class="details">{% trans "Licence mathématique et informatique appliqué aux science humaine" %}</div>
-                </div>
-                <div class="right">
-                    <div>lyon, france</div>
-                    <div>{% trans "septembre 2021 - mars 2022" %}</div>
-                </div>
-            </div>
-
-            <div class="education-item">
-                <div class="left">
-                    <div class="degree">{% trans "STUDI école en ligne | bac +2" %}</div>
-                    <div class="details">{% trans "Graduate Développeur web full stack" %}</div>
-                </div>
-                <div class="right">
-                    <div>lyon, france</div>
-                    <div>{% trans "octobre 2024 - octobre 2025" %}</div>
-                </div>
-            </div>
-
-            <div class="education-item">
-                <div class="left">
-                    <div class="degree">{% trans "STUDI école en ligne | bac +3" %}</div>
-                    <div class="details">{% trans "Bachelor Développeur d'application Python" %}</div>
-                </div>
-                <div class="right">
-                    <div>lyon, france</div>
-                    <div>{% trans "octobre 2025 - en cours" %}</div>
-                </div>
-            </div>
-
-            <div class="education-item">
-                <div class="left">
-                    <div class="degree">{% trans "Université lyon 1 | bac +2" %}</div>
-                    <div class="details">{% trans "Diplome universitaire Animaton et Gestion des activités sportives et culutrel (DEUST AGAPSC)" %}</div>
-                </div>
-                <div class="right">
-                    <div>lyon, france</div>
-                    <div>{% trans "octobre 2025 - juin 2026" %}</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Summary Section -->
-        <section class="skills-section">
-            <h2 class="section-title">{% trans "Compétences" %}</h2>
-
-            <div class="skills-content">
-                <div class="skills-list">
-                    <div class="skill-item">
-                        <div class="label">{% trans "Front-end" %}</div>
-                        <div class="value">HTML, CSS, Javascript, Bootstrap</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="label">{% trans "BACK-end" %}</div>
-                        <div class="value">Python, Django, ExpressJS</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="label">{% trans "BDD" %}</div>
-                        <div class="value">PostgresSQL, mongoDB, SQLlite</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="label">{% trans "Platforms" %}</div>
-                        <div class="value">PyCharm, Visual Studio Code, pgAdmin, DB browser (SQLite)</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="label">{% trans "Soft Skills" %}</div>
-                        <div class="value">
-                            <ul>
-                                <li>{% trans "Excellente communication" %}</li>
-                                <li>{% trans "travail en équipe" %}</li>
-                                <li>{% trans "résolution de problème" %}</li>
-                                <li>{% trans "autonome et organiser" %}</li>
-                                <li>{% trans "polyvalent et ponctuel" %}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+    </div>
+</section>
 
         <!-- Projects Section -->
-        <section class="projects-section">
-            <h2 class="section-title">{% trans "PROJECTS" %}</h2>
+<section class="projects-section">
+    <h2 class="section-title">{% trans "PROJECTS" %}</h2>
 
-            <div class="project-item">
-                <div class="project-title">
-                    <div><h3>Audio_player | <a href="https://github.com/Hani19000/Audio_player" target="_blank">LINK</a></h3></div>
-                    <div class="date">{% trans "octobre 2025" %}</div>
-                </div>
-                <div class="project-details">
-                    <p>{% trans "Projet complet que j'ai développé de A à Z avec Django. C'est une application web permettant d'écouter des audio. J'ai mis en place toute la partie backend avec Python/Django et une base SQLite, géré l'intégration des fichiers audio, et créé une interface claire en HTML, CSS et JavaScript. Ce projet m'a permis de comprendre en profondeur la logique d'une application full-stack : base de données, API, interface et déploiement, et de faire mes débuts sur Python." %}</p>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <div class="project-title">
-                    <div><h3>Ecoride | <a href="https://github.com/Hani19000/ecoride" target="_blank">LINK</a></h3></div>
-                    <div class="date">{% trans "octobre 2024 - octobre 2025" %}</div>
-                </div>
-                <div class="project-details">
-                    <p>{% trans "Ecoride est une plateforme de covoiturage web que j'ai conçue avec Node.js, Express et EJS dans le cadre de ma formation. J'ai créé les routes principales, la gestion des utilisateurs et l'affichage dynamique des trajets. Le site communique avec une base PostgreSQL et gère la persistance des données. Ce projet m'a appris à structurer un backend clair, à utiliser un moteur de templates et à déployer une app sur un serveur (Fly.io)." %}</p>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <div class="project-title">
-                    <div><h3>{% trans "Agence de voyage" %} | <a href="https://github.com/Hani19000/agence-de-voyage" target="_blank">LINK</a></h3></div>
-                    <div class="date">{% trans "mars 2025" %}</div>
-                </div>
-                <div class="project-details">
-                    <p>{% trans "Un projet front-end que j'ai réalisé pour m'exercer à la création de sites vitrines professionnels. J'ai conçu un site complet d'agence de voyage avec plusieurs pages (accueil, offres, contact), en HTML et CSS, avec un design responsive." %}</p>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <div class="project-title">
-                    <div><h3>{% trans "authentification" %} | <a href="https://github.com/Hani19000/authentification" target="_blank">LINK</a></h3></div>
-                    <div class="date">{% trans "mars 2025" %}</div>
-                </div>
-                <div class="project-details">
-                    <p>{% trans "Projet orienté sécurité et backend, où j'ai développé un système d'authentification complet avec Node.js, Express et MongoDB. Les utilisateurs peuvent s'inscrire, se connecter et accéder à des routes protégées via des tokens JWT. J'ai aussi utilisé bcrypt pour le hachage des mots de passe. Ce projet m'a permis de comprendre les bonnes pratiques de sécurité et la gestion des sessions dans une application web." %}</p>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <div class="project-title">
-                    <div><h3>To Do List | <a href="https://github.com/Hani19000/To-Do-List" target="_blank">LINK</a></h3></div>
-                    <div class="date">{% trans "mars 2025" %}</div>
-                </div>
-                <div class="project-details">
-                    <p>{% trans "Une application de gestion de tâches, réalisée en HTML, CSS et JavaScript. L'utilisateur peut ajouter, modifier et supprimer ses tâches, avec une interface claire et réactive." %}</p>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <div class="project-title">
-                    <div><h3>Text To Voice | <a href="https://github.com/Hani19000/quranstream" target="_blank">LINK</a></h3></div>
-                    <div class="date">{% trans "octobre 2025" %}</div>
-                </div>
-                <div class="project-details">
-                    <p>{% trans "Application web simple mais ludique que j'ai faite pour explorer les API du navigateur. Elle permet de convertir un texte écrit en audio, directement depuis le navigateur, grâce à l'API SpeechSynthesis. J'ai géré le design en CSS et l'interactivité en JavaScript." %}</p>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <div class="project-title">
-                    <div><h3>{% trans "Chronometre" %} | <a href="https://github.com/Hani19000/Chronometre" target="_blank">LINK</a></h3></div>
-                    <div class="date">{% trans "octobre 2025" %}</div>
-                </div>
-                <div class="project-details">
-                    <p>{% trans "J'ai aussi créé plusieurs petits projets en JavaScript (comme une calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des événements et la manipulation du DOM." %}</p>
-                </div>
-            </div>
-        </section>
+    <div class="project-item">
+        <div class="project-title">
+            <div><h3>Audio_player | <a href="https://github.com/Hani19000/Audio_player" target="_blank">LINK</a></h3></div>
+            <div class="date">{% trans "octobre 2025" %}</div>
+        </div>
+        <div class="project-details">
+            <p>{% trans "Projet complet que j'ai développé de A à Z avec Django. C'est une application web permettant d'écouter des audio. J'ai mis en place toute la partie backend avec Python/Django et une base SQLite, géré l'intégration des fichiers audio, et créé une interface claire en HTML, CSS et JavaScript. Ce projet m'a permis de comprendre en profondeur la logique d'une application full-stack : base de données, API, interface et déploiement, et de faire mes débuts sur Python." %}</p>
+        </div>
     </div>
+
+    <div class="project-item">
+        <div class="project-title">
+            <div><h3>Ecoride | <a href="https://github.com/Hani19000/ecoride" target="_blank">LINK</a></h3></div>
+            <div class="date">{% trans "octobre 2024 - octobre 2025" %}</div>
+        </div>
+        <div class="project-details">
+            <p>{% trans "Ecoride est une plateforme de covoiturage web que j'ai conçue avec Node.js, Express et EJS dans le cadre de ma formation. J'ai créé les routes principales, la gestion des utilisateurs et l'affichage dynamique des trajets. Le site communique avec une base PostgreSQL et gère la persistance des données. Ce projet m'a appris à structurer un backend clair, à utiliser un moteur de templates et à déployer une app sur un serveur (Fly.io)." %}</p>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">
+            <div><h3>{% trans "Agence de voyage" %} | <a href="https://github.com/Hani19000/agence-de-voyage" target="_blank">LINK</a></h3></div>
+            <div class="date">{% trans "mars 2025" %}</div>
+        </div>
+        <div class="project-details">
+            <p>{% trans "Un projet front-end que j'ai réalisé pour m'exercer à la création de sites vitrines professionnels. J'ai conçu un site complet d'agence de voyage avec plusieurs pages (accueil, offres, contact), en HTML et CSS, avec un design responsive." %}</p>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">
+            <div><h3>{% trans "authentification" %} | <a href="https://github.com/Hani19000/authentification" target="_blank">LINK</a></h3></div>
+            <div class="date">{% trans "mars 2025" %}</div>
+        </div>
+        <div class="project-details">
+            <p>{% trans "Projet orienté sécurité et backend, où j'ai développé un système d'authentification complet avec Node.js, Express et MongoDB. Les utilisateurs peuvent s'inscrire, se connecter et accéder à des routes protégées via des tokens JWT. J'ai aussi utilisé bcrypt pour le hachage des mots de passe. Ce projet m'a permis de comprendre les bonnes pratiques de sécurité et la gestion des sessions dans une application web." %}</p>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">
+            <div><h3>To Do List | <a href="https://github.com/Hani19000/To-Do-List" target="_blank">LINK</a></h3></div>
+            <div class="date">{% trans "mars 2025" %}</div>
+        </div>
+        <div class="project-details">
+            <p>{% trans "Une application de gestion de tâches, réalisée en HTML, CSS et JavaScript. L'utilisateur peut ajouter, modifier et supprimer ses tâches, avec une interface claire et réactive." %}</p>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">
+            <div><h3>Text To Voice | <a href="https://github.com/Hani19000/quranstream" target="_blank">LINK</a></h3></div>
+            <div class="date">{% trans "octobre 2025" %}</div>
+        </div>
+        <div class="project-details">
+            <p>{% trans "Application web simple mais ludique que j'ai faite pour explorer les API du navigateur. Elle permet de convertir un texte écrit en audio, directement depuis le navigateur, grâce à l'API SpeechSynthesis. J'ai géré le design en CSS et l'interactivité en JavaScript." %}</p>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-title">
+            <div><h3>{% trans "Chronometre" %} | <a href="https://github.com/Hani19000/Chronometre" target="_blank">LINK</a></h3></div>
+            <div class="date">{% trans "octobre 2025" %}</div>
+        </div>
+        <div class="project-details">
+            <p>{% trans "J'ai aussi créé plusieurs petits projets en JavaScript (comme une calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des événements et la manipulation du DOM." %}</p>
+        </div>
+    </div>
+</section>
 
             <!-- Work Experience Section -->
 <section class="experience-section">
@@ -685,6 +684,8 @@
         </ul>
     </div>
 </section>
+    </div>
+
     <a href="{% url 'pdf' %}" class="pdf-download-btn" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

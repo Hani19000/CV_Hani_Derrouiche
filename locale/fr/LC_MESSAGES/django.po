@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 20:27+0100\n"
+"POT-Creation-Date: 2025-11-01 20:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,55 +304,55 @@ msgstr ""
 "calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des "
 "événements et la manipulation du DOM."
 
-#: .\templates\index.html:658
+#: .\templates\index.html:657
 msgid "EXPERIENCE PROFESSIONNELLE"
 msgstr "EXPERIENCE PROFESSIONNELLE"
 
-#: .\templates\index.html:661
+#: .\templates\index.html:660
 msgid "Animateur/Directeur adjoint | centre de loisirs Venissieux"
 msgstr "Animateur/Directeur adjoint | centre de loisirs Venissieux"
 
-#: .\templates\index.html:662
+#: .\templates\index.html:661
 #, fuzzy
 #| msgid "juillet 2022 - Juillet2024"
 msgid "juillet 2022 - Juillet 2024"
 msgstr "juillet 2022 - Juillet2024"
 
+#: .\templates\index.html:665 .\templates\index.html:679
+msgid ""
+"Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
+"moyens nécessaires à la réalisation des projets concernés."
+msgstr ""
+"Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
+"moyens nécessaires à la réalisation des projets concernés."
+
 #: .\templates\index.html:666 .\templates\index.html:680
 msgid ""
-"Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
-"moyens nécessaires à la réalisation des projets concernés."
+"Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
+"respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
+"et objectifs pédagogiques du secteur."
 msgstr ""
-"Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
-"moyens nécessaires à la réalisation des projets concernés."
+"Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
+"respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
+"et objectifs pédagogiques du secteur."
 
 #: .\templates\index.html:667 .\templates\index.html:681
-msgid ""
-"Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
-"respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
-"et objectifs pédagogiques du secteur."
-msgstr ""
-"Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
-"respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
-"et objectifs pédagogiques du secteur."
-
-#: .\templates\index.html:668 .\templates\index.html:682
 msgid "diriger/animer une équipe d'animation."
 msgstr "diriger/animer une équipe d'animation."
 
-#: .\templates\index.html:669 .\templates\index.html:683
+#: .\templates\index.html:668 .\templates\index.html:682
 msgid "mener des projets educative pour répondre aux besoin de la structure."
 msgstr "mener des projets educative pour répondre aux besoin de la structure."
 
-#: .\templates\index.html:670 .\templates\index.html:684
+#: .\templates\index.html:669 .\templates\index.html:683
 msgid "mettre en place des réunions de coordination de l'équipe d'animation."
 msgstr "mettre en place des réunions de coordination de l'équipe d'animation."
 
-#: .\templates\index.html:675
+#: .\templates\index.html:674
 msgid "Animateur/Directeur adjoint | MJC Jean-Cocteau"
 msgstr "Animateur/Directeur adjoint | MJC Jean-Cocteau"
 
-#: .\templates\index.html:676
+#: .\templates\index.html:675
 #, fuzzy
 #| msgid "octobre 2025 - juin 2026"
 msgid "octobre 2024 - Juillet 2025"
