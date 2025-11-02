@@ -171,10 +171,9 @@ msgid "travail en équipe"
 msgstr "travail en équipe"
 
 #: .\templates\index.html:570
-#, fuzzy
-#| msgid "résolution de probléme"
+
 msgid "résolution de problème"
-msgstr "résolution de probléme"
+msgstr "résolution de problème"
 
 #: .\templates\index.html:571
 msgid "autonome et organiser"
