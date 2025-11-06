@@ -4,6 +4,7 @@ from django.template.loader import render_to_string
 from django.utils.translation import gettext as _
 from django.urls import reverse
 import pdfkit, os
+from django.views.decorators.cache import cache_page
 from django.templatetags.static import static
 from django.conf import settings
 
@@ -69,7 +70,7 @@ ajoutez la vaiable d'environement sur render : WKHTMLTOPDF_PATH=/usr/bin/wkhtmlt
 
 """
 
-
+@cache_page(60 * 60)
 def home(request):
     return render(request, 'index.html')
 
