@@ -192,7 +192,7 @@ msgstr ""
 "Full project developed end-to-end using Python/Django, HTML, CSS, "
 "andJavaScript. Created an e-commerce platform allowing users to browse "
 "products,manage carts, and place orders. Built the entire backend with "
-"Django using SQLiteand PostgreSQL (production on Railway), implemented order "
+"Django using SQLite and PostgreSQL (production on Railway), implemented order "
 "logic, and designed a clear and interactive interface. Strengthened full-"
 "stack and front-end/back-end integration skills."
 
