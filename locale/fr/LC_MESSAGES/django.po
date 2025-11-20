@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-01 21:05+0100\n"
+"POT-Creation-Date: 2025-11-20 12:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,7 +100,7 @@ msgstr "STUDI école en ligne | bac +2"
 msgid "Graduate Développeur web full stack"
 msgstr "Graduate Développeur web full stack"
 
-#: .\templates\index.html:515 .\templates\index.html:597
+#: .\templates\index.html:515 .\templates\index.html:633
 msgid "octobre 2024 - octobre 2025"
 msgstr "octobre 2024 - octobre 2025"
 
@@ -171,7 +171,6 @@ msgid "travail en équipe"
 msgstr "travail en équipe"
 
 #: .\templates\index.html:570
-
 msgid "résolution de problème"
 msgstr "résolution de problème"
 
@@ -187,12 +186,67 @@ msgstr "polyvalent et ponctuel"
 msgid "PROJECTS"
 msgstr "PROJECTS"
 
-#: .\templates\index.html:587 .\templates\index.html:637
-#: .\templates\index.html:647
+#: .\templates\index.html:589 .\templates\index.html:601
+#, fuzzy
+#| msgid "octobre 2025"
+msgid "novembre 2025"
+msgstr "octobre 2025"
+
+#: .\templates\index.html:592
+msgid ""
+"Projet complet développé de A à Z avec Python/Django, HTML, CSS et "
+"JavaScript. Il s’agit d’un site e-commerce permettant aux utilisateurs de "
+"parcourir des produits, ajouter des articles au panier et passer des "
+"commandes. J’ai conçu toute la partie backend avec Django et une base SQLite "
+"et PSQL pour la production avec railway, géré la logique des commandes et "
+"créé une interface claire et interactive. Ce projet m’a permis de renforcer "
+"mes compétences en développement full-stack et en intégration front-end/back-"
+"end."
+msgstr "Projet complet développé de A à Z avec Python/Django, HTML, CSS et "
+"JavaScript. Il s’agit d’un site e-commerce permettant aux utilisateurs de "
+"parcourir des produits, ajouter des articles au panier et passer des "
+"commandes. J’ai conçu toute la partie backend avec Django et une base SQLite "
+"et PSQL pour la production avec railway, géré la logique des commandes et "
+"créé une interface claire et interactive. Ce projet m’a permis de renforcer "
+"mes compétences en développement full-stack et en intégration front-end/back-"
+"end."
+
+#: .\templates\index.html:604
+msgid ""
+"Application web développée entièrement avec Python/Django et HTML/CSS. Cette "
+"application permet de générer et de télécharger des QR codes personnalisés. "
+"J’ai conçu le backend pour gérer la création des codes et l’interface "
+"utilisateur pour permettre une utilisation simple et intuitive. Ce projet "
+"m’a permis de consolider ma maîtrise du développement full-stack et de la "
+"gestion dynamique de contenu."
+msgstr "Application web développée entièrement avec Python/Django et HTML/CSS. Cette "
+"application permet de générer et de télécharger des QR codes personnalisés. "
+"J’ai conçu le backend pour gérer la création des codes et l’interface "
+"utilisateur pour permettre une utilisation simple et intuitive. Ce projet "
+"m’a permis de consolider ma maîtrise du développement full-stack et de la "
+"gestion dynamique de contenu."
+
+#: .\templates\index.html:612 .\templates\index.html:623
+#: .\templates\index.html:673 .\templates\index.html:683
 msgid "octobre 2025"
 msgstr "octobre 2025"
 
-#: .\templates\index.html:590
+#: .\templates\index.html:615
+msgid ""
+"Développement complet d’un CV que vous pouvez télécharger et changer de "
+"langue avec Python/Django et HTML/CSS. J’ai conçu le backend pour gérer les "
+"informations personnelles et les projets, et créé une interface responsive "
+"et élégante pour présenter le contenu de manière dynamique. Ce projet m’a "
+"permis de renforcer mes compétences en structuration de données, "
+"développement full-stack et déploiement web."
+msgstr "Développement complet d’un CV que vous pouvez télécharger et changer de "
+"langue avec Python/Django et HTML/CSS. J’ai conçu le backend pour gérer les "
+"informations personnelles et les projets, et créé une interface responsive "
+"et élégante pour présenter le contenu de manière dynamique. Ce projet m’a "
+"permis de renforcer mes compétences en structuration de données, "
+"développement full-stack et déploiement web."
+
+#: .\templates\index.html:626
 msgid ""
 "Projet complet que j'ai développé de A à Z avec Django. C'est une "
 "application web permettant d'écouter des audio. J'ai mis en place toute la "
@@ -210,7 +264,7 @@ msgstr ""
 "full-stack : base de données, API, interface et déploiement, et de faire mes "
 "débuts sur Python."
 
-#: .\templates\index.html:600
+#: .\templates\index.html:636
 msgid ""
 "Ecoride est une plateforme de covoiturage web que j'ai conçue avec Node.js, "
 "Express et EJS dans le cadre de ma formation. J'ai créé les routes "
@@ -226,16 +280,16 @@ msgstr ""
 "des données. Ce projet m'a appris à structurer un backend clair, à utiliser "
 "un moteur de templates et à déployer une app sur un serveur (Fly.io)."
 
-#: .\templates\index.html:606
+#: .\templates\index.html:642
 msgid "Agence de voyage"
 msgstr "Agence de voyage"
 
-#: .\templates\index.html:607 .\templates\index.html:617
-#: .\templates\index.html:627
+#: .\templates\index.html:643 .\templates\index.html:653
+#: .\templates\index.html:663
 msgid "mars 2025"
 msgstr "mars 2025"
 
-#: .\templates\index.html:610
+#: .\templates\index.html:646
 msgid ""
 "Un projet front-end que j'ai réalisé pour m'exercer à la création de sites "
 "vitrines professionnels. J'ai conçu un site complet d'agence de voyage avec "
@@ -247,11 +301,11 @@ msgstr ""
 "plusieurs pages (accueil, offres, contact), en HTML et CSS, avec un design "
 "responsive."
 
-#: .\templates\index.html:616
+#: .\templates\index.html:652
 msgid "authentification"
 msgstr "authentification"
 
-#: .\templates\index.html:620
+#: .\templates\index.html:656
 msgid ""
 "Projet orienté sécurité et backend, où j'ai développé un système "
 "d'authentification complet avec Node.js, Express et MongoDB. Les "
@@ -267,7 +321,7 @@ msgstr ""
 "mots de passe. Ce projet m'a permis de comprendre les bonnes pratiques de "
 "sécurité et la gestion des sessions dans une application web."
 
-#: .\templates\index.html:630
+#: .\templates\index.html:666
 msgid ""
 "Une application de gestion de tâches, réalisée en HTML, CSS et JavaScript. "
 "L'utilisateur peut ajouter, modifier et supprimer ses tâches, avec une "
@@ -277,7 +331,7 @@ msgstr ""
 "L'utilisateur peut ajouter, modifier et supprimer ses tâches, avec une "
 "interface claire et réactive."
 
-#: .\templates\index.html:640
+#: .\templates\index.html:676
 msgid ""
 "Application web simple mais ludique que j'ai faite pour explorer les API du "
 "navigateur. Elle permet de convertir un texte écrit en audio, directement "
@@ -289,11 +343,11 @@ msgstr ""
 "depuis le navigateur, grâce à l'API SpeechSynthesis. J'ai géré le design en "
 "CSS et l'interactivité en JavaScript."
 
-#: .\templates\index.html:646
+#: .\templates\index.html:682
 msgid "Chronometre"
 msgstr "Chronometre"
 
-#: .\templates\index.html:650
+#: .\templates\index.html:686
 msgid ""
 "J'ai aussi créé plusieurs petits projets en JavaScript (comme une "
 "calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des "
@@ -303,21 +357,21 @@ msgstr ""
 "calculatrice et un chronomètre) pour m'exercer à la logique, la gestion des "
 "événements et la manipulation du DOM."
 
-#: .\templates\index.html:657
+#: .\templates\index.html:693
 msgid "EXPERIENCE PROFESSIONNELLE"
 msgstr "EXPERIENCE PROFESSIONNELLE"
 
-#: .\templates\index.html:660
+#: .\templates\index.html:696
 msgid "Animateur/Directeur adjoint | centre de loisirs Venissieux"
 msgstr "Animateur/Directeur adjoint | centre de loisirs Venissieux"
 
-#: .\templates\index.html:661
+#: .\templates\index.html:697
 #, fuzzy
 #| msgid "juillet 2022 - Juillet2024"
 msgid "juillet 2022 - Juillet 2024"
 msgstr "juillet 2022 - Juillet2024"
 
-#: .\templates\index.html:665 .\templates\index.html:679
+#: .\templates\index.html:701 .\templates\index.html:715
 msgid ""
 "Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
 "moyens nécessaires à la réalisation des projets concernés."
@@ -325,7 +379,7 @@ msgstr ""
 "Prépare, met en œuvre, collabore et conduit des animations en se donnant les "
 "moyens nécessaires à la réalisation des projets concernés."
 
-#: .\templates\index.html:666 .\templates\index.html:680
+#: .\templates\index.html:702 .\templates\index.html:716
 msgid ""
 "Accueille, écoute, facilite les échanges, gère les conflits, garantit le "
 "respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
@@ -335,23 +389,23 @@ msgstr ""
 "respect des règles de vie. Joue avec, fait jouer, en répondant aux demandes "
 "et objectifs pédagogiques du secteur."
 
-#: .\templates\index.html:667 .\templates\index.html:681
+#: .\templates\index.html:703 .\templates\index.html:717
 msgid "diriger/animer une équipe d'animation."
 msgstr "diriger/animer une équipe d'animation."
 
-#: .\templates\index.html:668 .\templates\index.html:682
+#: .\templates\index.html:704 .\templates\index.html:718
 msgid "mener des projets educative pour répondre aux besoin de la structure."
 msgstr "mener des projets educative pour répondre aux besoin de la structure."
 
-#: .\templates\index.html:669 .\templates\index.html:683
+#: .\templates\index.html:705 .\templates\index.html:719
 msgid "mettre en place des réunions de coordination de l'équipe d'animation."
 msgstr "mettre en place des réunions de coordination de l'équipe d'animation."
 
-#: .\templates\index.html:674
+#: .\templates\index.html:710
 msgid "Animateur/Directeur adjoint | MJC Jean-Cocteau"
 msgstr "Animateur/Directeur adjoint | MJC Jean-Cocteau"
 
-#: .\templates\index.html:675
+#: .\templates\index.html:711
 #, fuzzy
 #| msgid "octobre 2025 - juin 2026"
 msgid "octobre 2024 - Juillet 2025"
