@@ -2,13 +2,11 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-20 12:36+0100\n"
+"POT-Creation-Date: 2025-11-20 12:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,8 +41,6 @@ msgid "date de naissance"
 msgstr "Date of Birth"
 
 #: .\templates\index.html:476
-#, fuzzy
-#| msgid "adresse"
 msgid "adresse"
 msgstr "Address"
 
@@ -73,8 +69,6 @@ msgstr ""
 "Physics-Chemistry"
 
 #: .\templates\index.html:493
-#, fuzzy
-#| msgid "septembre 2018 - Juillet 2021"
 msgid "septembre 2018 - Juillet 2021"
 msgstr "September 2018 - July 2021"
 
@@ -89,8 +83,6 @@ msgstr ""
 "Sciences"
 
 #: .\templates\index.html:504
-#, fuzzy
-#| msgid "septembre 2021 - mars 2022"
 msgid "septembre 2021 - mars 2022"
 msgstr "September 2021 - March 2022"
 
@@ -115,8 +107,6 @@ msgid "Bachelor Développeur d'application Python"
 msgstr "Bachelor's Degree in Python Application Development"
 
 #: .\templates\index.html:526
-#, fuzzy
-#| msgid "octobre 2025"
 msgid "octobre 2025 - en cours"
 msgstr "October 2025"
 
@@ -133,8 +123,6 @@ msgstr ""
 "AGAPSC)"
 
 #: .\templates\index.html:537
-#, fuzzy
-#| msgid "septembre 2021 - mars 2022"
 msgid "septembre 2023 - juin 2025"
 msgstr "September 2021 - March 2022"
 
@@ -163,8 +151,6 @@ msgid "Soft Skills"
 msgstr "Soft Skills"
 
 #: .\templates\index.html:568
-#, fuzzy
-#| msgid "Excellente communication"
 msgid "Excellente communication"
 msgstr "Excellent Communication"
 
@@ -202,7 +188,13 @@ msgid ""
 "créé une interface claire et interactive. Ce projet m’a permis de renforcer "
 "mes compétences en développement full-stack et en intégration front-end/back-"
 "end."
-msgstr "Full project developed end-to-end using Python/Django, HTML, CSS, and JavaScript. Created an e-commerce platform allowing users to browse products, manage carts, and place orders. Built the entire backend with Django using SQLite and PostgreSQL (production on Railway), implemented order logic, and designed a clear and interactive interface. Strengthened full-stack and front-end/back-end integration skills."
+msgstr ""
+"Full project developed end-to-end using Python/Django, HTML, CSS, "
+"andJavaScript. Created an e-commerce platform allowing users to browse "
+"products,manage carts, and place orders. Built the entire backend with "
+"Django using SQLiteand PostgreSQL (production on Railway), implemented order "
+"logic, and designed a clear and interactive interface. Strengthened full-"
+"stack and front-end/back-end integration skills."
 
 #: .\templates\index.html:604
 msgid ""
@@ -212,7 +204,11 @@ msgid ""
 "utilisateur pour permettre une utilisation simple et intuitive. Ce projet "
 "m’a permis de consolider ma maîtrise du développement full-stack et de la "
 "gestion dynamique de contenu."
-msgstr "Web application fully developed with Python/Django and HTML/CSS. Allows users to generate and download custom QR codes. Designed the backend for code generation and built a simple, intuitive user interface. Reinforced full-stack development and dynamic content management skills."
+msgstr ""
+"Web application fully developed with Python/Django and HTML/CSS. Allows "
+"users to generate and download custom QR codes. Designed the backend for "
+"codegeneration and built a simple, intuitive user interface. Reinforced full-"
+"stack development and dynamic content management skills."
 
 #: .\templates\index.html:612 .\templates\index.html:623
 #: .\templates\index.html:673 .\templates\index.html:683
@@ -227,7 +223,12 @@ msgid ""
 "et élégante pour présenter le contenu de manière dynamique. Ce projet m’a "
 "permis de renforcer mes compétences en structuration de données, "
 "développement full-stack et déploiement web."
-msgstr "Complete development of an online, multilingual, downloadable CV using Python/Django and HTML/CSS. Built the backend to manage personal data and project content, and designed a responsive and clean user interface. Strengthened data structuring, full-stack development, and web deployment skills."
+msgstr ""
+"Complete development of an online, multilingual, downloadable CV using "
+"Python/Django and HTML/CSS. Built the backend to manage personal data and "
+"project content,and designed a responsive and clean user interface. "
+"Strengthened data structuring, full-stackdevelopment, and web deployment "
+"skills."
 
 #: .\templates\index.html:626
 msgid ""
